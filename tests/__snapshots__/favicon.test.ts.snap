@@ -194,15 +194,16 @@ snapshot[`favicon plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html><head>
+<html>
+  <head>
     <title>Hello world</title>
-  <link rel="icon" sizes="48x48" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" sizes="any" href="/favicon.svg" type="image/svg+xml">
+  <link href="/favicon.ico" sizes="48x48" rel="icon">
+<link href="/apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon">
+<link type="image/svg+xml" href="/favicon.svg" sizes="any" rel="icon">
 </head>
   <body>
-  
-</body></html>',
+  </body>
+</html>',
     data: {
       basename: "index",
       children: "<html>

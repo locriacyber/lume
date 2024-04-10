@@ -115,7 +115,8 @@ snapshot[`base_path plugin 3`] = `
 [
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,8 +137,8 @@ snapshot[`base_path plugin 3`] = `
   </picture>
   <video poster="/blog/image.jpeg"></video>
   <script id="script-1" src="/blog/script.js"></script>
-
-</body></html>',
+</body>
+</html>',
     data: {
       basename: "index",
       children: '<!DOCTYPE html>

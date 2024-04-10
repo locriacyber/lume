@@ -131,7 +131,9 @@ snapshot[`relative_url plugin 3`] = `
 [
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>First article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>First article</p>
 <p><a href="/drafts/second-article/">Go to second</a>
 <a href="/articles/third-article/">Go to third</a>
 <a href="/other/">Go to other</a>
@@ -176,7 +178,9 @@ First article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Second article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>Second article</p>
 <p><a href="/articles/first-article/">Go to first</a>
 <a href="/articles/third-article/">Go to third</a>
 <a href="/other/">Go to other</a>
@@ -221,7 +225,9 @@ Second article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Third article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>Third article</p>
 <p><a href="/drafts/second-article/">Go to second</a>
 <a href="/other/">Go to other</a>
 <a href="/">Go to index</a></p>
@@ -264,7 +270,9 @@ Third article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p><a href="/bar">url</a>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p><a href="/bar">url</a>
 <a href="foo">url</a>
 <a href="./foo">url</a>
 <a href="../foo">url</a>
@@ -332,7 +340,8 @@ Third article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Other page</p>
+<html><head></head><body>
+<p>Other page</p>
 <p><a href="/robots.txt">See robots.txt</a></p>
 </body></html>',
     data: {
@@ -366,7 +375,8 @@ Third article
   },
   {
     content: "<!DOCTYPE html>
-<html><head></head><body><p>Tilde and eñe</p>
+<html><head></head><body>
+<p>Tilde and eñe</p>
 </body></html>",
     data: {
       basename: "tílde-and-eñe",
@@ -528,7 +538,9 @@ snapshot[`relative_url plugin (without slugify) 3`] = `
 [
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>First article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>First article</p>
 <p><a href="/drafts/second-article/">Go to second</a>
 <a href="/articles/third%20article/">Go to third</a>
 <a href="/other/">Go to other</a>
@@ -573,7 +585,9 @@ First article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Second article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>Second article</p>
 <p><a href="/articles/first-article/">Go to first</a>
 <a href="/articles/third%20article/">Go to third</a>
 <a href="/other/">Go to other</a>
@@ -618,7 +632,9 @@ Second article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Third article</p>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p>Third article</p>
 <p><a href="/drafts/second-article/">Go to second</a>
 <a href="/other/">Go to other</a>
 <a href="/">Go to index</a></p>
@@ -661,7 +677,9 @@ Third article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p><a href="/bar">url</a>
+<html><head></head><body>
+<!-- deno-fmt-ignore-file -->
+<p><a href="/bar">url</a>
 <a href="foo">url</a>
 <a href="./foo">url</a>
 <a href="../foo">url</a>
@@ -729,7 +747,8 @@ Third article
   },
   {
     content: '<!DOCTYPE html>
-<html><head></head><body><p>Other page</p>
+<html><head></head><body>
+<p>Other page</p>
 <p><a href="/robots.txt">See robots.txt</a></p>
 </body></html>',
     data: {
@@ -763,7 +782,8 @@ Third article
   },
   {
     content: "<!DOCTYPE html>
-<html><head></head><body><p>Tilde and eñe</p>
+<html><head></head><body>
+<p>Tilde and eñe</p>
 </body></html>",
     data: {
       basename: "tílde-and-eñe",

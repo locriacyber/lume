@@ -130,9 +130,10 @@ snapshot[`multilanguage plugin 3`] = `
 [
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head><link rel="alternate" hreflang="en" href="http://localhost/en/">
-<link rel="alternate" hreflang="gl" href="http://localhost/">
-</head><body><p>Hello world</p>
+<html lang="en"><head><link href="http://localhost/en/" hreflang="en" rel="alternate">
+<link href="http://localhost/" hreflang="gl" rel="alternate">
+</head><body>
+<p>Hello world</p>
 </body></html>',
     data: {
       alternates: "Array(2)",
@@ -171,9 +172,10 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="en" href="http://localhost/en/">
-<link rel="alternate" hreflang="gl" href="http://localhost/">
-</head><body><p>Ola mundo</p>
+<html lang="gl"><head><link href="http://localhost/en/" hreflang="en" rel="alternate">
+<link href="http://localhost/" hreflang="gl" rel="alternate">
+</head><body>
+<p>Ola mundo</p>
 </body></html>',
     data: {
       alternates: "Array(2)",
@@ -211,8 +213,9 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="gl" href="http://localhost/lang-selector/">
-</head><body><p>Select your languages...</p>
+<html lang="gl"><head><link href="http://localhost/lang-selector/" hreflang="gl" rel="alternate">
+</head><body>
+<p>Select your languages...</p>
 </body></html>',
     data: {
       alternates: "Array(1)",
@@ -250,10 +253,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head><link rel="alternate" hreflang="en" href="http://localhost/en/other-page-english/">
-<link rel="alternate" hreflang="fr" href="http://localhost/fr/other-page-french.html">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/other-page-english/">
-</head><body><h1>English subtitle</h1>
+<html lang="en"><head><link href="http://localhost/en/other-page-english/" hreflang="en" rel="alternate">
+<link href="http://localhost/fr/other-page-french.html" hreflang="fr" rel="alternate">
+<link href="http://localhost/en/other-page-english/" hreflang="x-default" rel="alternate">
+</head><body>
+<h1>English subtitle</h1>
 <p>Common description</p>
 <p>Other page <a href="/">Link to index in Galego</a></p>
 </body></html>',
@@ -302,10 +306,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="fr"><head><link rel="alternate" hreflang="en" href="http://localhost/en/other-page-english/">
-<link rel="alternate" hreflang="fr" href="http://localhost/fr/other-page-french.html">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/other-page-english/">
-</head><body><h1>Sous-titre français</h1>
+<html lang="fr"><head><link href="http://localhost/en/other-page-english/" hreflang="en" rel="alternate">
+<link href="http://localhost/fr/other-page-french.html" hreflang="fr" rel="alternate">
+<link href="http://localhost/en/other-page-english/" hreflang="x-default" rel="alternate">
+</head><body>
+<h1>Sous-titre français</h1>
 <p>Common description</p>
 <p>Other page <a href="/">Link to index in Galego</a></p>
 </body></html>',
@@ -354,11 +359,12 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="it"><head><link rel="alternate" hreflang="en" href="http://localhost/en/page-one/">
-<link rel="alternate" hreflang="it" href="http://localhost/it/pagina-1/">
-<link rel="alternate" hreflang="gl" href="http://localhost/paxina-un/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/page-one/">
-</head><body><p>Pagina 1</p>
+<html lang="it"><head><link href="http://localhost/en/page-one/" hreflang="en" rel="alternate">
+<link href="http://localhost/it/pagina-1/" hreflang="it" rel="alternate">
+<link href="http://localhost/paxina-un/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/page-one/" hreflang="x-default" rel="alternate">
+</head><body>
+<p>Pagina 1</p>
 </body></html>',
     data: {
       alternates: "Array(3)",
@@ -397,11 +403,12 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head><link rel="alternate" hreflang="en" href="http://localhost/en/page-one/">
-<link rel="alternate" hreflang="it" href="http://localhost/it/pagina-1/">
-<link rel="alternate" hreflang="gl" href="http://localhost/paxina-un/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/page-one/">
-</head><body><p>Page 1</p>
+<html lang="en"><head><link href="http://localhost/en/page-one/" hreflang="en" rel="alternate">
+<link href="http://localhost/it/pagina-1/" hreflang="it" rel="alternate">
+<link href="http://localhost/paxina-un/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/page-one/" hreflang="x-default" rel="alternate">
+</head><body>
+<p>Page 1</p>
 </body></html>',
     data: {
       alternates: "Array(3)",
@@ -440,11 +447,12 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="en" href="http://localhost/en/page-one/">
-<link rel="alternate" hreflang="it" href="http://localhost/it/pagina-1/">
-<link rel="alternate" hreflang="gl" href="http://localhost/paxina-un/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/page-one/">
-</head><body><p>Páxina 1</p>
+<html lang="gl"><head><link href="http://localhost/en/page-one/" hreflang="en" rel="alternate">
+<link href="http://localhost/it/pagina-1/" hreflang="it" rel="alternate">
+<link href="http://localhost/paxina-un/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/page-one/" hreflang="x-default" rel="alternate">
+</head><body>
+<p>Páxina 1</p>
 </body></html>',
     data: {
       alternates: "Array(3)",
@@ -483,10 +491,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="en" href="http://localhost/en/page-1/">
-<link rel="alternate" hreflang="gl" href="http://localhost/page-1/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/page-1/">
-</head><body><nav>
+<html lang="gl"><head><link href="http://localhost/en/page-1/" hreflang="en" rel="alternate">
+<link href="http://localhost/page-1/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/page-1/" hreflang="x-default" rel="alternate">
+</head><body>
+<nav>
 
   <a href="/en/page-1/" hreflang="en" class="alternate"></a>
 
@@ -549,10 +558,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head><link rel="alternate" hreflang="en" href="http://localhost/en/page-1/">
-<link rel="alternate" hreflang="gl" href="http://localhost/page-1/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/page-1/">
-</head><body><nav>
+<html lang="en"><head><link href="http://localhost/en/page-1/" hreflang="en" rel="alternate">
+<link href="http://localhost/page-1/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/page-1/" hreflang="x-default" rel="alternate">
+</head><body>
+<nav>
 
   <a href="/en/page-1/" hreflang="en" class="alternate"></a>
 
@@ -613,9 +623,10 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: \`<!DOCTYPE html>
-<html lang="it"><head><link rel="alternate" hreflang="it" href="http://localhost/it/types/article/">
-<link rel="alternate" hreflang="gl" href="http://localhost/types/article_gl/">
-</head><body><p>Questo è l'articolo 1</p>
+<html lang="it"><head><link href="http://localhost/it/types/article/" hreflang="it" rel="alternate">
+<link href="http://localhost/types/article_gl/" hreflang="gl" rel="alternate">
+</head><body>
+<p>Questo è l'articolo 1</p>
 </body></html>\`,
     data: {
       alternates: "Array(2)",
@@ -655,9 +666,10 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="it" href="http://localhost/it/types/article/">
-<link rel="alternate" hreflang="gl" href="http://localhost/types/article_gl/">
-</head><body><p>Este é o artigo 1</p>
+<html lang="gl"><head><link href="http://localhost/it/types/article/" hreflang="it" rel="alternate">
+<link href="http://localhost/types/article_gl/" hreflang="gl" rel="alternate">
+</head><body>
+<p>Este é o artigo 1</p>
 </body></html>',
     data: {
       alternates: "Array(2)",
@@ -697,10 +709,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="en"><head><link rel="alternate" hreflang="en" href="http://localhost/en/types/post/">
-<link rel="alternate" hreflang="gl" href="http://localhost/types/post_gl/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/types/post/">
-</head><body><p>This is the post 1</p>
+<html lang="en"><head><link href="http://localhost/en/types/post/" hreflang="en" rel="alternate">
+<link href="http://localhost/types/post_gl/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/types/post/" hreflang="x-default" rel="alternate">
+</head><body>
+<p>This is the post 1</p>
 </body></html>',
     data: {
       alternates: "Array(2)",
@@ -740,10 +753,11 @@ snapshot[`multilanguage plugin 3`] = `
   },
   {
     content: '<!DOCTYPE html>
-<html lang="gl"><head><link rel="alternate" hreflang="en" href="http://localhost/en/types/post/">
-<link rel="alternate" hreflang="gl" href="http://localhost/types/post_gl/">
-<link rel="alternate" hreflang="x-default" href="http://localhost/en/types/post/">
-</head><body><p>Este é o post 1</p>
+<html lang="gl"><head><link href="http://localhost/en/types/post/" hreflang="en" rel="alternate">
+<link href="http://localhost/types/post_gl/" hreflang="gl" rel="alternate">
+<link href="http://localhost/en/types/post/" hreflang="x-default" rel="alternate">
+</head><body>
+<p>Este é o post 1</p>
 </body></html>',
     data: {
       alternates: "Array(2)",

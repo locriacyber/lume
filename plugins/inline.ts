@@ -50,7 +50,10 @@ export default function (userOptions?: Options) {
         page.document!.querySelectorAll("template"),
       )
         .flatMap((template) =>
-          Array.from(template.querySelectorAll(selector))
+          Array.from(
+            template.childNodes.length === 0 ?
+            template.content.querySelectorAll(selector) :
+            template.querySelectorAll(selector) )
         );
       for (
         const element of [

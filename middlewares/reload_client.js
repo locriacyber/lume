@@ -123,6 +123,7 @@ export default function liveReload(initRevision) {
           break;
 
         case "js":
+        case "ts":
           // Reload the entire page for JavaScript changes
           location.reload();
           return;
